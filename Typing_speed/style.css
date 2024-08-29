@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, #ff8a00, #e52e71);
+    /* Creates a gradient background from orange to pink */
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #dcdcdc;
+}
+
+h1 {
+    color: #4a90e2;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#text-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+#input-area {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #a5d6a7;
+    margin-bottom: 20px;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e8f5e9;
+}
+
+#results p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #4caf50;
+}
+
+#results p#accuracy {
+    color: #ff5722;
+}
+
+#results p#wpm {
+    color: #2196f3;
+}
+
+#results p#score {
+    color: #9c27b0;
+}
+
+#restart-button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#restart-button:hover {
+    background-color: #e68900;
+}
